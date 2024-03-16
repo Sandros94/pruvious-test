@@ -10,6 +10,7 @@ export default stefanobartoletti(
     rules: {
       'vue/html-self-closing': 'off',
       'vue/no-multiple-template-root': 'off',
+      'unused-imports/no-unused-vars': 'warn',
     },
   },
 )
