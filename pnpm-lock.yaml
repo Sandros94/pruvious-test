@@ -10,7 +10,7 @@ dependencies:
     version: 3.10.3(eslint@8.57.0)(typescript@5.4.2)(vite@5.1.6)
   pruvious:
     specifier: ^3.10.7
-    version: 3.10.7(vue@3.4.21)
+    version: 3.10.8(vue@3.4.21)
   typescript:
     specifier: ^5.4.2
     version: 5.4.2
@@ -4073,6 +4073,7 @@ packages:
 
   /abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
+    requiresBuild: true
     dev: false
 
   /abbrev@2.0.0:
@@ -8891,8 +8892,8 @@ packages:
     resolution: {integrity: sha512-/XJ368cyBJ7fzLMwLKv1e4vLxOju2MNAIokcr7meSaNcVbWz/CPcW22cP04mwxOErdA5mwjA8Q6w/cdAQxVn7Q==}
     dev: false
 
-  /pruvious@3.10.7(vue@3.4.21):
-    resolution: {integrity: sha512-ohmS9O9dhPba39OBYV0HX821ZlHO7MKWjkiyvTKbDvpECBenI86wpUjX9ew2m6IGeT08pzm8Ex3n3cyp6ueY6A==}
+  /pruvious@3.10.8(vue@3.4.21):
+    resolution: {integrity: sha512-N6kHwMa/slZxPocFQm89GTChws2OK6fWBz95q1qnvlIeE0ts7BlES+kTWqL2P/VowpxX6jNK39V+LRDDpQmXkQ==}
     engines: {node: '>=20'}
     hasBin: true
     dependencies:
@@ -9652,9 +9653,6 @@ packages:
   /sqlite3@5.1.7:
     resolution: {integrity: sha512-GGIyOiFaG+TUra3JIfkI/zGP8yZYLPQ0pl1bH+ODjiX57sPhrLU5sQJn1y9bDKZUFYkX1crlrPfSYt0BKKdkog==}
     requiresBuild: true
-    peerDependenciesMeta:
-      node-gyp:
-        optional: true
     dependencies:
       bindings: 1.5.0
       node-addon-api: 7.1.0
